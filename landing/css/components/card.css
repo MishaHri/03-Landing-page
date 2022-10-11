@@ -1,0 +1,29 @@
+.card img {
+  width: 150px;
+}
+
+.card {
+  border: 1px solid rgb(230,230,230);
+  width: 200px;
+  padding: 20px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.card p{
+  opacity: .5;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  border-color: #a9bcd0 ! important;
+}
